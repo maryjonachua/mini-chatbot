@@ -57,7 +57,7 @@ function App() {
           {/* Header */}
           <div className="bg-[#2e2ea5] text-white px-4 py-4 rounded-t-lg flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <h1 className="font-semibold text-2xl">Chatbot</h1>
+              <h1 className="font-semibold text-2xl">Mini Chatbot</h1>
               <div className="rounded-full bg-white w-8 h-8 flex items-center justify-center">
                 <FaRobot className="text-[#2e2ea5]" />
               </div>
