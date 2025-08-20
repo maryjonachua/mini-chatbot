@@ -52,8 +52,8 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen bg-[#1A1A1E]">
-        <div className="w-[50%] h-[90%] shadow-lg ">
+      <div className="flex items-center justify-center h-screen bg-[#1A1A1E]">
+        <div className="shadow-lg w-full max-w-6xl h-[calc(100vh-9rem)] px-14 xl:px-0">
           {/* Header */}
           <div className="bg-[#2e2ea5] text-white px-4 py-4 rounded-t-lg flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -68,7 +68,7 @@ function App() {
           </div>
 
           {/* Messages */}
-          <div className="p-4 h-80 overflow-y-auto bg-white scrollbar-thin scrollbar-thumb-purple-400 scrollbar-track-purple-100 ">
+          <div className="p-4 h-[calc(75vh-5rem)] overflow-y-auto bg-white scrollbar-thin scrollbar-thumb-purple-400 scrollbar-track-purple-100 ">
             <div className="flex flex-col gap-2 ">
               <div className="flex flex-row gap-2 items-center">
                 <div className="rounded-full bg-[#2e2ea5] w-8 h-8 flex items-center justify-center">
